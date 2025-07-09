@@ -1,0 +1,263 @@
+{
+  "lessons": [
+    {
+      "id": "01sushi",
+      "title": "寿司屋",
+      "image": "assets/images/01sushi/sushi.png",
+      "description": "学习寿司屋相关的日语词汇",
+      "words": [
+        {
+          "id": "sushi",
+          "kanji": "寿司",
+          "hiragana": "すし",
+          "romaji": "sushi",
+          "partOfSpeech": "名词",
+          "meaning": "寿司",
+          "position": {
+            "x": 25,
+            "y": 65
+          }
+        },
+        {
+          "id": "maguro",
+          "kanji": "鮪",
+          "hiragana": "まぐろ",
+          "romaji": "maguro",
+          "partOfSpeech": "名词",
+          "meaning": "金枪鱼",
+          "position": {
+            "x": 15,
+            "y": 55
+          }
+        },
+        {
+          "id": "ebi",
+          "kanji": "海老",
+          "hiragana": "えび",
+          "romaji": "ebi",
+          "partOfSpeech": "名词",
+          "meaning": "虾",
+          "position": {
+            "x": 45,
+            "y": 50
+          }
+        },
+        {
+          "id": "ikura",
+          "kanji": "いくら",
+          "hiragana": "いくら",
+          "romaji": "ikura",
+          "partOfSpeech": "名词",
+          "meaning": "三文鱼籽",
+          "position": {
+            "x": 75,
+            "y": 35
+          }
+        },
+        {
+          "id": "taberu",
+          "kanji": "食べる",
+          "hiragana": "たべる",
+          "romaji": "taberu",
+          "partOfSpeech": "动词",
+          "meaning": "吃",
+          "position": {
+            "x": 35,
+            "y": 75
+          }
+        },
+        {
+          "id": "oishii",
+          "kanji": "美味しい",
+          "hiragana": "おいしい",
+          "romaji": "oishii",
+          "partOfSpeech": "形容词",
+          "meaning": "美味的",
+          "position": {
+            "x": 60,
+            "y": 40
+          }
+        },
+        {
+          "id": "totemo",
+          "kanji": "とても",
+          "hiragana": "とても",
+          "romaji": "totemo",
+          "partOfSpeech": "副词",
+          "meaning": "很，非常",
+          "position": {
+            "x": 50,
+            "y": 60
+          }
+        },
+        {
+          "id": "dochira",
+          "kanji": "どちら",
+          "hiragana": "どちら",
+          "romaji": "dochira",
+          "partOfSpeech": "代词",
+          "meaning": "哪个，哪边",
+          "position": {
+            "x": 70,
+            "y": 50
+          }
+        }
+      ],
+      "phrases": [
+        {
+          "id": "phrase1",
+          "japanese": "この美味しい鮪の寿司を食べます。",
+          "romaji": "Kono oishii maguro no sushi o tabemasu.",
+          "chinese": "我要吃这个美味的金枪鱼寿司。"
+        },
+        {
+          "id": "phrase2",
+          "japanese": "海老といくら、どちらを食べますか？",
+          "romaji": "Ebi to ikura, dochira o tabemasu ka?",
+          "chinese": "虾和三文鱼籽，你吃哪个？"
+        },
+        {
+          "id": "phrase3",
+          "japanese": "私は美味しい寿司が大好きです。",
+          "romaji": "Watashi wa oishii sushi ga daisuki desu.",
+          "chinese": "我非常喜欢美味的寿司。"
+        },
+        {
+          "id": "phrase4",
+          "japanese": "この海老はとても美味しいですね！",
+          "romaji": "Kono ebi wa totemo oishii desu ne!",
+          "chinese": "这个虾真美味啊！"
+        }
+      ]
+    },
+    {
+      "id": "02shopping",
+      "title": "第2课 - 逛街选衣服",
+      "description": "学习衣服相关的日语单词和短语",
+      "words": [
+        {
+          "id": "sutsu",
+          "kanji": "スーツ",
+          "hiragana": "スーツ",
+          "romaji": "sutsu",
+          "partOfSpeech": "名词",
+          "meaning": "西装",
+          "position": {
+            "x": 20,
+            "y": 30
+          }
+        },
+        {
+          "id": "burausu",
+          "kanji": "ブラウス",
+          "hiragana": "ブラウス",
+          "romaji": "burausu",
+          "partOfSpeech": "名词",
+          "meaning": "女式衬衫",
+          "position": {
+            "x": 40,
+            "y": 25
+          }
+        },
+        {
+          "id": "doresu",
+          "kanji": "ドレス",
+          "hiragana": "ドレス",
+          "romaji": "doresu",
+          "partOfSpeech": "名词",
+          "meaning": "连衣裙/礼服",
+          "position": {
+            "x": 60,
+            "y": 35
+          }
+        },
+        {
+          "id": "udedokei",
+          "kanji": "腕時計",
+          "hiragana": "うでどけい",
+          "romaji": "udedokei",
+          "partOfSpeech": "名词",
+          "meaning": "手表",
+          "position": {
+            "x": 80,
+            "y": 40
+          }
+        },
+        {
+          "id": "oshare",
+          "kanji": "おしゃれ",
+          "hiragana": "おしゃれ",
+          "romaji": "oshare",
+          "partOfSpeech": "形容动词/名词",
+          "meaning": "时尚的",
+          "position": {
+            "x": 25,
+            "y": 60
+          }
+        },
+        {
+          "id": "suteki",
+          "kanji": "素敵",
+          "hiragana": "すてき",
+          "romaji": "suteki",
+          "partOfSpeech": "形容动词",
+          "meaning": "漂亮的/极好的",
+          "position": {
+            "x": 45,
+            "y": 65
+          }
+        },
+        {
+          "id": "kiru",
+          "kanji": "着る",
+          "hiragana": "きる",
+          "romaji": "kiru",
+          "partOfSpeech": "动词",
+          "meaning": "穿（上半身衣物）",
+          "position": {
+            "x": 65,
+            "y": 70
+          }
+        },
+        {
+          "id": "daisuki",
+          "kanji": "大好き",
+          "hiragana": "だいすき",
+          "romaji": "daisuki",
+          "partOfSpeech": "形容动词/名词",
+          "meaning": "非常喜欢",
+          "position": {
+            "x": 75,
+            "y": 55
+          }
+        }
+      ],
+      "phrases": [
+        {
+          "id": "phrase1",
+          "japanese": "このドレスはとてもおしゃれですね！",
+          "romaji": "Kono doresu wa totemo oshare desu ne!",
+          "chinese": "这件连衣裙真时尚啊！"
+        },
+        {
+          "id": "phrase2",
+          "japanese": "あなたが着ているそのブラウス、素敵です。",
+          "romaji": "Anata ga kiteiru sono burausu, suteki desu.",
+          "chinese": "你穿着的那件女式衬衫，真漂亮。"
+        },
+        {
+          "id": "phrase3",
+          "japanese": "私はこの腕時計が大好きです。",
+          "romaji": "Watashi wa kono udedokei ga daisuki desu.",
+          "chinese": "我非常喜欢这块手表。"
+        },
+        {
+          "id": "phrase4",
+          "japanese": "このスーツを着てもいいですか？",
+          "romaji": "Kono sutsu o kite mo ii desu ka?",
+          "chinese": "我可以穿一下这件西装吗？"
+        }
+      ]
+    }
+  ]
+}

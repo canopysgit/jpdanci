@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寿司屋 - 日语学习</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lesson.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="lesson-header">
+                <button class="back-btn" onclick="goBack()">
+                    <span class="back-icon">←</span>
+                    返回场景选择
+                </button>
+                <h1 class="lesson-title">寿司屋</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="lesson-main">
+        <div class="container">
+            <!-- 场景图片学习区域 -->
+            <section class="scene-section">
+                <h2 class="section-title">点击图片中的物品学习单词</h2>
+                <div class="scene-container">
+                    <div class="scene-image-wrapper">
+                        <img src="assets/images/01sushi/sushi.png" alt="寿司屋场景" class="scene-image" id="scene-image">
+                        
+                        <!-- 单词热点区域 -->
+                        <!-- sushi - 指向盘子 -->
+                        <div class="word-hotspot" data-word="sushi" style="left: 50%; top: 70%;">
+                            <div class="hotspot-dot"></div>
+                            <div class="hotspot-label">すし</div>
+                        </div>
+                        
+                        <!-- maguro - 指向金枪鱼寿司 -->
+                        <div class="word-hotspot" data-word="maguro" style="left: 30%; top: 45%;">
+                            <div class="hotspot-dot"></div>
+                            <div class="hotspot-label">まぐろ</div>
+                        </div>
+                        
+                        <!-- ebi - 指向虾寿司 -->
+                        <div class="word-hotspot" data-word="ebi" style="left: 60%; top: 35%;">
+                            <div class="hotspot-dot"></div>
+                            <div class="hotspot-label">えび</div>
+                        </div>
+                        
+                        <!-- ikura - 指向鱼子寿司 -->
+                        <div class="word-hotspot" data-word="ikura" style="left: 75%; top: 50%;">
+                            <div class="hotspot-dot"></div>
+                            <div class="hotspot-label">いくら</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 短语学习区域 -->
+            <section class="phrases-section">
+                <h2 class="section-title">寿司屋常用短语</h2>
+                <div class="phrases-grid">
+                    <div class="phrase-card" data-phrase="phrase1">
+                        <div class="phrase-content">
+                            <div class="phrase-japanese">すしを食べたいです。</div>
+                            <div class="phrase-romaji">Sushi wo tabetai desu.</div>
+                            <div class="phrase-chinese">我想吃寿司。</div>
+                        </div>
+                        <button class="phrase-audio-btn" onclick="playPhraseAudio('phrase1')">
+                            <span class="audio-icon">🔊</span>
+                        </button>
+                    </div>
+                    
+                    <div class="phrase-card" data-phrase="phrase2">
+                        <div class="phrase-content">
+                            <div class="phrase-japanese">えびを食べるのが好きです。</div>
+                            <div class="phrase-romaji">Ebi wo taberu no ga suki desu.</div>
+                            <div class="phrase-chinese">我喜欢吃虾。</div>
+                        </div>
+                        <button class="phrase-audio-btn" onclick="playPhraseAudio('phrase2')">
+                            <span class="audio-icon">🔊</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 单词详情弹窗 -->
+    <div class="word-modal" id="word-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-title">单词详情</h3>
+                <button class="modal-close" onclick="closeWordModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="word-details">
+                    <div class="word-main">
+                        <div class="word-kanji" id="word-kanji">鮪</div>
+                        <div class="word-kana" id="word-kana">まぐろ</div>
+                        <div class="word-romaji" id="word-romaji">maguro</div>
+                    </div>
+                    <div class="word-info">
+                        <div class="word-pos" id="word-pos">名词</div>
+                        <div class="word-meaning" id="word-meaning">金枪鱼</div>
+                    </div>
+                    <div class="word-example">
+                        <div class="example-label">例句：</div>
+                        <div class="example-japanese" id="example-japanese">まぐろの刺身が好きです。</div>
+                        <div class="example-romaji" id="example-romaji">Maguro no sashimi ga suki desu.</div>
+                        <div class="example-chinese" id="example-chinese">我喜欢金枪鱼刺身。</div>
+                    </div>
+                    <div class="word-actions">
+                        <button class="audio-btn" onclick="playWordAudio()">
+                            <span class="audio-icon">🔊</span>
+                            播放发音
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 背景遮罩 -->
+    <div class="modal-overlay" id="modal-overlay" onclick="closeWordModal()"></div>
+
+    <script src="js/lesson.js"></script>
+</body>
+</html>

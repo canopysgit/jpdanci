@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第2课：逛街选衣服 - 日语学习</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 课程导航 -->
+        <div class="lesson-navigation">
+            <div class="nav-left">
+                <a href="index.html" class="back-link">← 返回课程列表</a>
+                <button id="sidebar-toggle" class="sidebar-toggle">☰ 课程目录</button>
+            </div>
+            <div class="nav-center">
+                <a href="lesson1.html" class="nav-arrow prev-lesson">← 上一课</a>
+                <span class="lesson-number">第2课</span>
+                <span class="nav-arrow next-lesson disabled">下一课 →</span>
+            </div>
+        </div>
+        
+        <!-- 侧边栏 -->
+        <div id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h3>课程目录</h3>
+                <button id="sidebar-close" class="sidebar-close">×</button>
+            </div>
+            <div class="sidebar-content">
+                <a href="lesson1.html" class="sidebar-item">第1课 - 寿司屋</a>
+                <a href="lesson2.html" class="sidebar-item active">第2课 - 逛街选衣服</a>
+            </div>
+        </div>
+        
+        <!-- 课程标题区域 -->
+        <div class="lesson-header">
+            <h1 class="lesson-title" id="lesson-title">第2课 - 逛街选衣服</h1>
+            <p class="lesson-description" id="lesson-description">学习衣服相关的日语单词和短语</p>
+        </div>
+
+        <!-- 学习区域 -->
+        <div class="learning-section">
+            <!-- 单词学习区域 -->
+            <div class="words-area">
+                <h2>单词学习</h2>
+                <div id="words-list" class="words-grid">
+                    <!-- 单词卡片将通过JavaScript动态生成 -->
+                </div>
+            </div>
+
+            <!-- 短语展示区域 -->
+            <div class="phrases-area">
+                <h2>例句学习</h2>
+                <div id="phrases-list" class="phrases-list">
+                    <!-- 短语将通过JavaScript动态生成 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 悬停提示框 -->
+    <div id="hover-tooltip" class="tooltip">
+        <div class="tooltip-content">
+            <div class="japanese"></div>
+            <div class="chinese"></div>
+        </div>
+    </div>
+
+    <script src="js/lesson2-init.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
