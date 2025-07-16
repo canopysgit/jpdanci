@@ -755,6 +755,15 @@ body {
     
     .words-area, .phrases-area {
         padding: 20px;
+        flex: none;
+    }
+    
+    .words-area {
+        order: 1;
+    }
+    
+    .phrases-area {
+        order: 2;
     }
 }
 
@@ -811,6 +820,7 @@ body {
     .learning-section {
         padding: 15px;
         gap: 25px;
+        flex-direction: column;
     }
     
     .words-area, .phrases-area {
@@ -933,10 +943,20 @@ body {
     .learning-section {
         padding: 12px;
         gap: 20px;
+        flex-direction: column;
     }
     
     .words-area, .phrases-area {
         padding: 15px;
+        flex: none;
+    }
+    
+    .words-area {
+        order: 1;
+    }
+    
+    .phrases-area {
+        order: 2;
     }
     
     .words-area h2, .phrases-area h2 {
