@@ -435,20 +435,44 @@ body {
     font-size: 22px; /* 增大字体 */
     font-weight: bold;
     color: #333;
-    margin-bottom: 10px; /* 增加间距 */
+    margin-bottom: 12px; /* 增加间距 */
+    line-height: 1.6;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 .phrase-romaji {
     font-size: 16px; /* 增大字体 */
     color: #666;
     font-style: italic;
-    margin-bottom: 10px; /* 增加间距 */
+    margin-bottom: 12px; /* 增加间距 */
+    line-height: 1.5;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 .phrase-chinese {
     font-size: 16px; /* 增大字体 */
     color: #007bff;
     font-weight: 500;
+    margin-bottom: 12px;
+    line-height: 1.6;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.phrase-tip {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 8px;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    white-space: normal;
+    color: #666;
+    font-style: normal;
 }
 
 /* 悬停提示框 */
@@ -851,7 +875,13 @@ body {
     
     .phrase-tip {
         font-size: 14px;
-        line-height: 1.4;
+        line-height: 1.5;
+        margin-top: 8px;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        white-space: normal;
+        color: #666;
+        font-style: normal;
     }
 }
 
@@ -957,36 +987,40 @@ body {
     
     .phrase-japanese {
         font-size: 18px;
-        line-height: 1.5;
-        margin-bottom: 10px;
-        word-break: break-all;
+        line-height: 1.6;
+        margin-bottom: 12px;
+        word-break: keep-all;
         overflow-wrap: break-word;
+        white-space: normal;
     }
     
     .phrase-romaji {
         font-size: 14px;
-        line-height: 1.4;
-        margin-bottom: 10px;
-        word-break: break-all;
+        line-height: 1.5;
+        margin-bottom: 12px;
+        word-break: keep-all;
         overflow-wrap: break-word;
+        white-space: normal;
     }
     
     .phrase-chinese {
         font-size: 15px;
-        line-height: 1.5;
-        margin-bottom: 10px;
-        word-break: break-all;
+        line-height: 1.6;
+        margin-bottom: 12px;
+        word-break: keep-all;
         overflow-wrap: break-word;
+        white-space: normal;
     }
     
     .phrase-tip {
         font-size: 13px;
-        line-height: 1.4;
-        padding: 10px;
+        line-height: 1.5;
         margin-top: 8px;
-        background: rgba(102, 126, 234, 0.05);
-        border-radius: 6px;
-        border-left: 3px solid #667eea;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        white-space: normal;
+        color: #666;
+        font-style: normal;
     }
     
     .tooltip {
@@ -1012,18 +1046,37 @@ body {
 @media (max-width: 360px) {
     .phrase-japanese {
         font-size: 16px;
+        line-height: 1.6;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        white-space: normal;
     }
     
     .phrase-romaji {
         font-size: 13px;
+        line-height: 1.5;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        white-space: normal;
     }
     
     .phrase-chinese {
         font-size: 14px;
+        line-height: 1.6;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        white-space: normal;
     }
     
     .phrase-tip {
         font-size: 12px;
+        line-height: 1.5;
+        margin-top: 6px;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        white-space: normal;
+        color: #666;
+        font-style: normal;
     }
     
     .word-japanese {
