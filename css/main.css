@@ -333,6 +333,14 @@ body {
     margin-bottom: 4px; /* 减少间距 */
 }
 
+.word-hiragana {
+    font-size: 1rem;
+    color: #667eea;
+    font-weight: 500;
+    margin-left: 8px;
+    opacity: 0.8;
+}
+
 .word-romaji {
     font-size: 0.9rem; /* 减小字体 */
     color: #667eea;

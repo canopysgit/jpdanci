@@ -107,9 +107,9 @@ class JapaneseWordLearning {
         japaneseDiv.className = 'word-japanese';
         let japaneseText = word.kanji;
         if (word.hiragana && word.kanji !== word.hiragana) {
-            japaneseText += `（${word.hiragana}）`;
+            japaneseText += ` <span class="word-hiragana">(${word.hiragana})</span>`;
         }
-        japaneseDiv.textContent = japaneseText;
+        japaneseDiv.innerHTML = japaneseText;
         
         // 创建罗马音元素
         const romajiDiv = document.createElement('div');
